@@ -17,9 +17,6 @@ class Solution:
                 s += mat[row][l]
             else:
                 s += (mat[row][l] + mat[row][r])
-            print(mat[row][l], 'l')
-            print(mat[row][r], 'r')
-
             row += 1
             r -= 1
             l += 1
